@@ -2,10 +2,10 @@
 # Wavefront file for 'brotherRoom_mesh_0006.obj'
 
 # Vertices (Count = 4)
-v -700 -420 0
-v -821 -420 0
-v -821 -338 0
-v -700 -338 0
+v -840 -420 0
+v -979 -420 0
+v -979 -270 0
+v -840 -270 0
 
 # Texture cooridinates (Count = 4)
 vt 0 0

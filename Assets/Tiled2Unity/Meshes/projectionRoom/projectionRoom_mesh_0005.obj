@@ -1,11 +1,11 @@
 ﻿# Tiled2Unity generated file. Do not modify by hand.
-# Wavefront file for 'brotherRoom_mesh_0007.obj'
+# Wavefront file for 'projectionRoom_mesh_0005.obj'
 
 # Vertices (Count = 4)
-v -840 -700 0
-v -1058 -700 0
-v -1058 -507 0
-v -840 -507 0
+v -420 -840 0
+v -490 -840 0
+v -490 -725 0
+v -420 -725 0
 
 # Texture cooridinates (Count = 4)
 vt 0 0
@@ -17,7 +17,7 @@ vt 0 1
 vn 0 0 -1
 
 # Mesh description
-g brotherRoom_mesh_0007
+g projectionRoom_mesh_0005
 
 # Faces
 f 1/1/1 2/2/1 3/3/1 4/4/1

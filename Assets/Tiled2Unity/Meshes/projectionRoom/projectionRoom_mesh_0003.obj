@@ -2,10 +2,10 @@
 # Wavefront file for 'projectionRoom_mesh_0003.obj'
 
 # Vertices (Count = 4)
-v -770 -840 0
-v -870 -840 0
-v -870 -755 0
-v -770 -755 0
+v -490 -350 0
+v -650 -350 0
+v -650 -245 0
+v -490 -245 0
 
 # Texture cooridinates (Count = 4)
 vt 0 0
