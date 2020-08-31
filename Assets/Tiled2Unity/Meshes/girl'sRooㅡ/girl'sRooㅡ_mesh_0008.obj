@@ -1,0 +1,24 @@
+﻿# Tiled2Unity generated file. Do not modify by hand.
+# Wavefront file for 'girl'sRoo?_mesh_0008.obj'
+
+# Vertices (Count = 4)
+v -420 -700 0
+v -501 -700 0
+v -501 -643 0
+v -420 -643 0
+
+# Texture cooridinates (Count = 4)
+vt 0 0
+vt 1 0
+vt 1 1
+vt 0 1
+
+# Normal
+vn 0 0 -1
+
+# Mesh description
+g girl'sRoo?_mesh_0008
+
+# Faces
+f 1/1/1 2/2/1 3/3/1 4/4/1
+
