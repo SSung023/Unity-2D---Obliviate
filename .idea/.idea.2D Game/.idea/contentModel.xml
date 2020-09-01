@@ -12,6 +12,7 @@
           <e p="CameraManager.cs" t="Include" />
           <e p="MoveObject.cs" t="Include" />
           <e p="MovingObject.cs" t="Include" />
+          <e p="StartPoint.cs" t="Include" />
           <e p="TransferMap.cs" t="Include" />
         </e>
         <e p="Tiled2Unity" t="Include">

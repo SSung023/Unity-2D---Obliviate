@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MovingObject : MonoBehaviour
 {
+    public string currentMapName; //transfer script에 있는 transferMapName 변수의 값을 저장
+    
     private BoxCollider2D boxCollider;
     public LayerMask layerMask; // 통과가 불가능한 레이어를 설정해 주는 역할
 
@@ -93,6 +95,8 @@ public class MovingObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //다른 scene으로 전환할 때, 해당 Object를 파괴하지 말라는 함수
+        DontDestroyOnLoad(this.gameObject);
         boxCollider = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
     }

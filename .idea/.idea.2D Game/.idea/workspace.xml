@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f3cdc8-cc0d-4dca-ae1a-7f2e9a41251c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/LivingRoom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/LivingRoom.tiled2unity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/brotherRoom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/brotherRoom.tiled2unity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/girlRoom2.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/girlRoom2.tiled2unity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/projectionRoom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/projectionRoom.tiled2unity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/LivingRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/LivingRoom.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/brotherRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/brotherRoom.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/girlRoom2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/girlRoom2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/projectionRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/projectionRoom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/brotherRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/brotherRoom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/CameraManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/CameraManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/TransferMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/TransferMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/TransferMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/MovingObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/StartPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tiled2Unity/Scripts/Runtime/ImportBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -28,6 +30,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Script/CameraManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/MovingObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/TransferMap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/StartPoint.cs" />
       </list>
     </option>
   </component>
@@ -47,7 +52,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -75,6 +80,8 @@
       <workItem from="1598676445024" duration="3517000" />
       <workItem from="1598766342058" duration="952000" />
       <workItem from="1598967603969" duration="10000" />
+      <workItem from="1598977081471" duration="1183000" />
+      <workItem from="1598979055703" duration="2166000" />
     </task>
     <servers />
   </component>
@@ -82,9 +89,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="751" y="275" key="SettingsEditor" timestamp="1598676630546">
+    <state x="751" y="275" key="SettingsEditor" timestamp="1598977123774">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="751" y="275" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1598676630546" />
+    <state x="751" y="275" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1598977123774" />
   </component>
 </project>

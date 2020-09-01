@@ -12,7 +12,8 @@ public class CameraManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        // 다른 Scene으로 넘어갈 때 해당 Object를 파괴시키지 말라는 함수
+        DontDestroyOnLoad(this.gameObject);
     }
 
     // Update is called once per frame
