@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 2020-08-31 오후 6:14:28-->
+<!--Last exported: 2020-09-01 오후 10:38:15-->
 <Tiled2Unity version="1.0.13.2">
   <AssignMaterial mesh="brotherRoom_mesh_0001" material="sheet" />
   <AssignMaterial mesh="brotherRoom_mesh_0002" material="벽지" />
@@ -33,8 +33,8 @@
       <GameObject name="핏자국" x="0" y="0" mesh="brotherRoom_mesh_0007" sortingLayerName="Object" sortingOrder="3" opacity="1" />
       <GameObject name="침대" x="0" y="0" mesh="brotherRoom_mesh_0008" sortingLayerName="Object" sortingOrder="3" opacity="1" />
     </GameObject>
-    <GameObject name="brother layer" x="54.5277" y="-17.2193" z="0">
-      <TileLayer offsetX="54.5277" offsetY="17.2193" />
+    <GameObject name="brother layer" x="83.8611" y="-29.2193" z="0">
+      <TileLayer offsetX="83.8611" offsetY="29.2193" />
       <GameObject name="오빠 시체" x="0" y="0" mesh="brotherRoom_mesh_0009" sortingLayerName="Object" sortingOrder="4" opacity="1" />
     </GameObject>
     <GameObject name="NoPassing layer" x="0" y="0" z="0" layer="NoPassing">
@@ -63,8 +63,8 @@
         <RectangleObjectComponent tmx-object-id="6" tmx-object-name="" tmx-object-type="" tmx-object-x="1048.94" tmx-object-y="561.062" tmx-object-width="278.379" tmx-object-height="416.133" tmx-object-rotation="0" />
         <BoxCollider2D width="278.379" height="416.133" />
       </GameObject>
-      <GameObject name="RectangleObject" x="777.141" y="-636.034" rotation="0" layer="NoPassing">
-        <RectangleObjectComponent tmx-object-id="10" tmx-object-name="" tmx-object-type="" tmx-object-x="777.141" tmx-object-y="636.034" tmx-object-width="61.7025" tmx-object-height="66.0073" tmx-object-rotation="0" />
+      <GameObject name="RectangleObject" x="801.141" y="-648.034" rotation="0" layer="NoPassing">
+        <RectangleObjectComponent tmx-object-id="10" tmx-object-name="" tmx-object-type="" tmx-object-x="801.141" tmx-object-y="648.034" tmx-object-width="61.7025" tmx-object-height="66.0073" tmx-object-rotation="0" />
         <BoxCollider2D width="61.7025" height="66.0073" />
       </GameObject>
       <GameObject name="RectangleObject" x="419.003" y="-980.065" rotation="0">

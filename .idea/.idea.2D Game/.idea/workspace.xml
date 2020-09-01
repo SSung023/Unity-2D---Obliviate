@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03f3cdc8-cc0d-4dca-ae1a-7f2e9a41251c" name="Default Changelist" comment="" />
+    <list default="true" id="03f3cdc8-cc0d-4dca-ae1a-7f2e9a41251c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/LivingRoom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/LivingRoom.tiled2unity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/brotherRoom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/brotherRoom.tiled2unity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/girlRoom2.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/girlRoom2.tiled2unity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/projectionRoom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/projectionRoom.tiled2unity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/LivingRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/LivingRoom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/brotherRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/brotherRoom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/girlRoom2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/girlRoom2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/projectionRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/projectionRoom.prefab" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/TransferMap.cs" root0="FORCE_HIGHLIGHTING" />
@@ -27,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,6 +74,7 @@
       <workItem from="1598676022796" duration="253000" />
       <workItem from="1598676445024" duration="3517000" />
       <workItem from="1598766342058" duration="952000" />
+      <workItem from="1598967603969" duration="10000" />
     </task>
     <servers />
   </component>

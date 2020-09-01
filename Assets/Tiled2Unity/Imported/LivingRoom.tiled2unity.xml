@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 2020-08-31 오후 9:11:40-->
+<!--Last exported: 2020-09-01 오후 10:41:04-->
 <Tiled2Unity version="1.0.13.2">
   <AssignMaterial mesh="LivingRoom_mesh_0001" material="sheet" />
   <AssignMaterial mesh="LivingRoom_mesh_0002" material="dad" />
@@ -14,16 +14,16 @@
   <Prefab name="LivingRoom" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="6" numTilesWide="19" numTilesHigh="16" tileWidth="70" tileHeight="70" exportScale="1" mapWidthInPixels="1330" mapHeightInPixels="1120" backgroundColor="#808080">
     <GameObject name="background layer" x="0" y="0" z="0">
       <TileLayer offsetX="0" offsetY="0" />
-      <GameObject name="sheet" x="0" y="0" mesh="LivingRoom_mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
+      <GameObject name="sheet" x="0" y="0" mesh="LivingRoom_mesh_0001" sortingLayerName="background" sortingOrder="0" opacity="1" />
     </GameObject>
     <GameObject name="Object layer" x="0" y="0" z="0">
       <TileLayer offsetX="0" offsetY="0" />
-      <GameObject name="dad" x="0" y="0" mesh="LivingRoom_mesh_0002" sortingLayerName="" sortingOrder="1" opacity="1" />
-      <GameObject name="piano" x="0" y="0" mesh="LivingRoom_mesh_0003" sortingLayerName="" sortingOrder="1" opacity="1" />
+      <GameObject name="dad" x="0" y="0" mesh="LivingRoom_mesh_0002" sortingLayerName="Object" sortingOrder="1" opacity="1" />
+      <GameObject name="piano" x="0" y="0" mesh="LivingRoom_mesh_0003" sortingLayerName="Object" sortingOrder="1" opacity="1" />
     </GameObject>
     <GameObject name="piano above layer" x="0" y="0" z="0">
       <TileLayer offsetX="0" offsetY="0" />
-      <GameObject name="piano" x="0" y="0" mesh="LivingRoom_mesh_0004" sortingLayerName="" sortingOrder="2" opacity="1" />
+      <GameObject name="piano" x="0" y="0" mesh="LivingRoom_mesh_0004" sortingLayerName="above object" sortingOrder="2" opacity="1" />
     </GameObject>
     <GameObject name="picture layer" x="37.3085" y="-20.0892" z="0">
       <TileLayer offsetX="37.3085" offsetY="20.0892" />
@@ -32,51 +32,51 @@
     </GameObject>
     <GameObject name="stove layer" x="-2.86988" y="34.4386" z="0">
       <TileLayer offsetX="-2.86988" offsetY="-34.4386" />
-      <GameObject name="stove" x="0" y="0" mesh="LivingRoom_mesh_0007" sortingLayerName="" sortingOrder="4" opacity="1" />
+      <GameObject name="stove" x="0" y="0" mesh="LivingRoom_mesh_0007" sortingLayerName="Object" sortingOrder="4" opacity="1" />
     </GameObject>
     <GameObject name="sofa above layer" x="-32.4386" y="-19.9693" z="0">
       <TileLayer offsetX="-32.4386" offsetY="19.9693" />
-      <GameObject name="sofa1" x="0" y="0" mesh="LivingRoom_mesh_0008" sortingLayerName="" sortingOrder="5" opacity="1" />
+      <GameObject name="sofa1" x="0" y="0" mesh="LivingRoom_mesh_0008" sortingLayerName="above object" sortingOrder="5" opacity="1" />
     </GameObject>
-    <GameObject name="noPassing layer" x="0" y="0" z="0">
+    <GameObject name="noPassing layer" x="0" y="0" z="0" layer="NoPassing">
       <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
-      <GameObject name="RectangleObject" x="0" y="1.33333" rotation="0" layer="">
+      <GameObject name="RectangleObject" x="0" y="1.33333" rotation="0">
         <RectangleObjectComponent tmx-object-id="3" tmx-object-name="" tmx-object-type="" tmx-object-x="0" tmx-object-y="-1.33333" tmx-object-width="280" tmx-object-height="980" tmx-object-rotation="0" />
         <BoxCollider2D width="280" height="980" />
       </GameObject>
-      <GameObject name="RectangleObject" x="278.667" y="1.33333" rotation="0" layer="">
+      <GameObject name="RectangleObject" x="278.667" y="1.33333" rotation="0">
         <RectangleObjectComponent tmx-object-id="4" tmx-object-name="" tmx-object-type="" tmx-object-x="278.667" tmx-object-y="-1.33333" tmx-object-width="773.333" tmx-object-height="140" tmx-object-rotation="0" />
         <BoxCollider2D width="773.333" height="140" />
       </GameObject>
-      <GameObject name="RectangleObject" x="1052" y="0" rotation="0" layer="">
+      <GameObject name="RectangleObject" x="1052" y="0" rotation="0">
         <RectangleObjectComponent tmx-object-id="9" tmx-object-name="" tmx-object-type="" tmx-object-x="1052" tmx-object-y="0" tmx-object-width="266.667" tmx-object-height="424" tmx-object-rotation="0" />
         <BoxCollider2D width="266.667" height="424" />
       </GameObject>
-      <GameObject name="RectangleObject" x="421.333" y="-140" rotation="0" layer="">
+      <GameObject name="RectangleObject" x="421.333" y="-140" rotation="0">
         <RectangleObjectComponent tmx-object-id="5" tmx-object-name="" tmx-object-type="" tmx-object-x="421.333" tmx-object-y="140" tmx-object-width="626.667" tmx-object-height="210.667" tmx-object-rotation="0" />
         <BoxCollider2D width="626.667" height="210.667" />
       </GameObject>
-      <GameObject name="RectangleObject" x="708" y="-349.333" rotation="0" layer="">
+      <GameObject name="RectangleObject" x="708" y="-349.333" rotation="0">
         <RectangleObjectComponent tmx-object-id="6" tmx-object-name="" tmx-object-type="" tmx-object-x="708" tmx-object-y="349.333" tmx-object-width="118.667" tmx-object-height="18.6667" tmx-object-rotation="0" />
         <BoxCollider2D width="118.667" height="18.6667" />
       </GameObject>
-      <GameObject name="RectangleObject" x="1120" y="-420" rotation="0" layer="">
+      <GameObject name="RectangleObject" x="1120" y="-420" rotation="0">
         <RectangleObjectComponent tmx-object-id="11" tmx-object-name="" tmx-object-type="" tmx-object-x="1120" tmx-object-y="420" tmx-object-width="210" tmx-object-height="140" tmx-object-rotation="0" />
         <BoxCollider2D width="210" height="140" />
       </GameObject>
-      <GameObject name="RectangleObject" x="697.333" y="-514.667" rotation="0" layer="">
+      <GameObject name="RectangleObject" x="697.333" y="-514.667" rotation="0">
         <RectangleObjectComponent tmx-object-id="7" tmx-object-name="" tmx-object-type="" tmx-object-x="697.333" tmx-object-y="514.667" tmx-object-width="141.333" tmx-object-height="62.6667" tmx-object-rotation="0" />
         <BoxCollider2D width="141.333" height="62.6667" />
       </GameObject>
-      <GameObject name="RectangleObject" x="1049.33" y="-561.333" rotation="0" layer="">
+      <GameObject name="RectangleObject" x="1049.33" y="-561.333" rotation="0">
         <RectangleObjectComponent tmx-object-id="1" tmx-object-name="" tmx-object-type="" tmx-object-x="1049.33" tmx-object-y="561.333" tmx-object-width="281.333" tmx-object-height="557.333" tmx-object-rotation="0" />
         <BoxCollider2D width="281.333" height="557.333" />
       </GameObject>
-      <GameObject name="RectangleObject" x="293.333" y="-782.667" rotation="0" layer="">
+      <GameObject name="RectangleObject" x="293.333" y="-782.667" rotation="0">
         <RectangleObjectComponent tmx-object-id="8" tmx-object-name="" tmx-object-type="" tmx-object-x="293.333" tmx-object-y="782.667" tmx-object-width="136" tmx-object-height="126.667" tmx-object-rotation="0" />
         <BoxCollider2D width="136" height="126.667" />
       </GameObject>
-      <GameObject name="RectangleObject" x="1.33333" y="-980" rotation="0" layer="">
+      <GameObject name="RectangleObject" x="1.33333" y="-980" rotation="0">
         <RectangleObjectComponent tmx-object-id="2" tmx-object-name="" tmx-object-type="" tmx-object-x="1.33333" tmx-object-y="980" tmx-object-width="1044" tmx-object-height="141.333" tmx-object-rotation="0" />
         <BoxCollider2D width="1044" height="141.333" />
       </GameObject>

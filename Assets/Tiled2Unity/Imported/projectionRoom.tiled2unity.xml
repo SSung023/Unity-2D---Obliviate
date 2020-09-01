@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 2020-08-31 오후 8:00:38-->
+<!--Last exported: 2020-09-01 오후 10:38:18-->
 <Tiled2Unity version="1.0.13.2">
   <AssignMaterial mesh="projectionRoom_mesh_0001" material="sheet" />
   <AssignMaterial mesh="projectionRoom_mesh_0002" material="box21" />

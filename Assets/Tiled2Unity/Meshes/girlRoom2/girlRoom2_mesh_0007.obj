@@ -2,10 +2,10 @@
 # Wavefront file for 'girlRoom2_mesh_0007.obj'
 
 # Vertices (Count = 4)
-v -630 -700 0
-v -656 -700 0
-v -656 -663 0
-v -630 -663 0
+v -630 -770 0
+v -711 -770 0
+v -711 -713 0
+v -630 -713 0
 
 # Texture cooridinates (Count = 4)
 vt 0 0

@@ -17,10 +17,14 @@
         <e p="Tiled2Unity" t="Include">
           <e p="Imported" t="Include">
             <e p="_ReadMe.txt" t="Include" />
+            <e p="bathroom.tiled2unity.xml" t="Include" />
             <e p="brotherRoom.tiled2unity.xml" t="Include" />
+            <e p="garden.tiled2unity.xml" t="Include" />
             <e p="girl'sRooㅡ.tiled2unity.xml" t="Include" />
             <e p="girlRoom.tiled2unity.xml" t="Include" />
             <e p="girlRoom2.tiled2unity.xml" t="Include" />
+            <e p="LivingRoom.tiled2unity.xml" t="Include" />
+            <e p="projectionRoom.tiled2unity.xml" t="Include" />
           </e>
           <e p="License.txt" t="Include" />
           <e p="Materials" t="Include">
