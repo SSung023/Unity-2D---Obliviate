@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 2020-09-01 오후 10:38:15-->
+<!--Last exported: 2020-09-02 오후 1:18:50-->
 <Tiled2Unity version="1.0.13.2">
   <AssignMaterial mesh="brotherRoom_mesh_0001" material="sheet" />
   <AssignMaterial mesh="brotherRoom_mesh_0002" material="벽지" />
@@ -63,9 +63,9 @@
         <RectangleObjectComponent tmx-object-id="6" tmx-object-name="" tmx-object-type="" tmx-object-x="1048.94" tmx-object-y="561.062" tmx-object-width="278.379" tmx-object-height="416.133" tmx-object-rotation="0" />
         <BoxCollider2D width="278.379" height="416.133" />
       </GameObject>
-      <GameObject name="RectangleObject" x="801.141" y="-648.034" rotation="0" layer="NoPassing">
-        <RectangleObjectComponent tmx-object-id="10" tmx-object-name="" tmx-object-type="" tmx-object-x="801.141" tmx-object-y="648.034" tmx-object-width="61.7025" tmx-object-height="66.0073" tmx-object-rotation="0" />
-        <BoxCollider2D width="61.7025" height="66.0073" />
+      <GameObject name="RectangleObject" x="823.808" y="-648.034" rotation="0" layer="NoPassing">
+        <RectangleObjectComponent tmx-object-id="10" tmx-object-name="" tmx-object-type="" tmx-object-x="823.808" tmx-object-y="648.034" tmx-object-width="39.0358" tmx-object-height="66.0073" tmx-object-rotation="0" />
+        <BoxCollider2D width="39.0358" height="66.0073" />
       </GameObject>
       <GameObject name="RectangleObject" x="419.003" y="-980.065" rotation="0">
         <RectangleObjectComponent tmx-object-id="5" tmx-object-name="" tmx-object-type="" tmx-object-x="419.003" tmx-object-y="980.065" tmx-object-width="909.752" tmx-object-height="140.624" tmx-object-rotation="0" />

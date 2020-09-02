@@ -2,14 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f3cdc8-cc0d-4dca-ae1a-7f2e9a41251c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Bath&amp;WareRoom.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Bath&amp;WareRoom.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Garden.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Garden.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/LivingRoom.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/LivingRoom.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ProjectionRoom.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ProjectionRoom.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/brotherRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/brotherRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CameraManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/CameraManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/StartPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/StartPoint.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/TransferMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/TransferMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/LivingRoom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/LivingRoom.tiled2unity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/brotherRoom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/brotherRoom.tiled2unity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/garden.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/garden.tiled2unity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0003.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0003.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0004.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0004.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0005.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0005.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0006.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0006.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0007.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0007.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0008.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0008.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0009.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0009.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0010.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0010.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0011.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0011.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/LivingRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/LivingRoom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/brotherRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/brotherRoom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/garden.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/garden.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +57,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1gl4mWUF4fEoHhCiLLTOifW0e3M" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -82,11 +106,27 @@
       <workItem from="1598967603969" duration="10000" />
       <workItem from="1598977081471" duration="1183000" />
       <workItem from="1598979055703" duration="2166000" />
+      <workItem from="1599016996129" duration="70000" />
+      <workItem from="1599017335597" duration="4374000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="751" y="275" key="SettingsEditor" timestamp="1598977123774">

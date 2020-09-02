@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 2020-09-01 오후 10:41:04-->
+<!--Last exported: 2020-09-02 오후 1:29:58-->
 <Tiled2Unity version="1.0.13.2">
   <AssignMaterial mesh="LivingRoom_mesh_0001" material="sheet" />
   <AssignMaterial mesh="LivingRoom_mesh_0002" material="dad" />
@@ -27,8 +27,8 @@
     </GameObject>
     <GameObject name="picture layer" x="37.3085" y="-20.0892" z="0">
       <TileLayer offsetX="37.3085" offsetY="20.0892" />
-      <GameObject name="livingRoom picture" x="0" y="0" mesh="LivingRoom_mesh_0005" sortingLayerName="" sortingOrder="3" opacity="1" />
-      <GameObject name="sofa1" x="0" y="0" mesh="LivingRoom_mesh_0006" sortingLayerName="" sortingOrder="3" opacity="1" />
+      <GameObject name="livingRoom picture" x="0" y="0" mesh="LivingRoom_mesh_0005" sortingLayerName="Object" sortingOrder="3" opacity="1" />
+      <GameObject name="sofa1" x="0" y="0" mesh="LivingRoom_mesh_0006" sortingLayerName="Object" sortingOrder="3" opacity="1" />
     </GameObject>
     <GameObject name="stove layer" x="-2.86988" y="34.4386" z="0">
       <TileLayer offsetX="-2.86988" offsetY="-34.4386" />

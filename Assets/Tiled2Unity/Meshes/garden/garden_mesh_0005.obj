@@ -2,10 +2,10 @@
 # Wavefront file for 'garden_mesh_0005.obj'
 
 # Vertices (Count = 4)
-v -910 -490 0
-v -980 -490 0
-v -980 -420 0
-v -910 -420 0
+v -910 -630 0
+v -980 -630 0
+v -980 -560 0
+v -910 -560 0
 
 # Texture cooridinates (Count = 4)
 vt 0 0
