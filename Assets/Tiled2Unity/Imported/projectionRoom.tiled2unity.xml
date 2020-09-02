@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 2020-09-01 오후 10:38:18-->
+<!--Last exported: 2020-09-02 오후 5:59:49-->
 <Tiled2Unity version="1.0.13.2">
   <AssignMaterial mesh="projectionRoom_mesh_0001" material="sheet" />
   <AssignMaterial mesh="projectionRoom_mesh_0002" material="box21" />
@@ -70,8 +70,8 @@
         <BoxCollider2D width="281.248" height="625.634" />
       </GameObject>
       <GameObject name="RectangleObject" x="278.379" y="-561.062" rotation="0">
-        <RectangleObjectComponent tmx-object-id="7" tmx-object-name="" tmx-object-type="" tmx-object-x="278.379" tmx-object-y="561.062" tmx-object-width="351.56" tmx-object-height="67.4422" tmx-object-rotation="0" />
-        <BoxCollider2D width="351.56" height="67.4422" />
+        <RectangleObjectComponent tmx-object-id="7" tmx-object-name="" tmx-object-type="" tmx-object-x="278.379" tmx-object-y="561.062" tmx-object-width="322.861" tmx-object-height="67.4422" tmx-object-rotation="0" />
+        <BoxCollider2D width="322.861" height="67.4422" />
       </GameObject>
       <GameObject name="RectangleObject" x="701.686" y="-563.932" rotation="0">
         <RectangleObjectComponent tmx-object-id="8" tmx-object-name="" tmx-object-type="" tmx-object-x="701.686" tmx-object-y="563.932" tmx-object-width="348.691" tmx-object-height="64.5723" tmx-object-rotation="0" />

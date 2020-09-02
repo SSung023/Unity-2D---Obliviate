@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/brotherRoom.unity
     guid: 61243ceb99d779542915d8671f183f9b
+  - enabled: 1
+    path: Assets/Scenes/Bath&WareRoom.unity
+    guid: 0ffab4cc0fd52ac4792ad5dd3f2c1710
+  - enabled: 1
+    path: Assets/Scenes/Garden.unity
+    guid: 12dd5aa5b3c87c3428969e438d9ef1d8
+  - enabled: 1
+    path: Assets/Scenes/LivingRoom.unity
+    guid: bfd543435e584b247a16ecdc5d6de5a5
+  - enabled: 1
+    path: Assets/Scenes/ProjectionRoom.unity
+    guid: 88e4a11b9aebf6340a56f5a8130d9321
   m_configObjects: {}

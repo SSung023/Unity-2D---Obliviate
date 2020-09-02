@@ -5,6 +5,8 @@ using UnityEngine;
 public class CameraManager : MonoBehaviour
 {
 
+    static public CameraManager instance;
+
     public GameObject target; // 카메라가 따라갈 대상
     public float moveSpeed; // 카메라가 얼마나 빠른 속도로 대상을 쫓을 것인지
     private Vector3 targetPosition; // 대상의 현재 위치 값
@@ -12,8 +14,17 @@ public class CameraManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // 다른 Scene으로 넘어갈 때 해당 Object를 파괴시키지 말라는 함수
-        DontDestroyOnLoad(this.gameObject);
+        if (instance == null)
+        {
+            // 다른 Scene으로 넘어갈 때 해당 Object를 파괴시키지 말라는 함수
+            DontDestroyOnLoad(this.gameObject);
+            instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);  
+        }
+
     }
 
     // Update is called once per frame
@@ -31,7 +42,6 @@ public class CameraManager : MonoBehaviour
             // moveSpeed * Time.deltaTime == 1초에 moveSpeed만큼 이동시키겠다는 의미
             this.transform.position = Vector3.Lerp(this.transform.position, targetPosition, moveSpeed * Time.deltaTime);
         }
-
         
     }
 }

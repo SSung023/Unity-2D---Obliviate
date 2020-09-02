@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 2020-09-02 오후 1:53:22-->
+<!--Last exported: 2020-09-03 오전 1:33:08-->
 <Tiled2Unity version="1.0.13.2">
   <AssignMaterial mesh="garden_mesh_0001" material="sheet" />
   <AssignMaterial mesh="garden_mesh_0002" material="decoration" />
@@ -72,9 +72,9 @@
         <RectangleObjectComponent tmx-object-id="3" tmx-object-name="" tmx-object-type="" tmx-object-x="-2.86988" tmx-object-y="419.003" tmx-object-width="248.245" tmx-object-height="143.494" tmx-object-rotation="0" />
         <BoxCollider2D width="248.245" height="143.494" />
       </GameObject>
-      <GameObject name="RectangleObject" x="578.281" y="-502.229" rotation="0">
-        <RectangleObjectComponent tmx-object-id="9" tmx-object-name="" tmx-object-type="" tmx-object-x="578.281" tmx-object-y="502.229" tmx-object-width="177.933" tmx-object-height="47.353" tmx-object-rotation="0" />
-        <BoxCollider2D width="177.933" height="47.353" />
+      <GameObject name="RectangleObject" x="571.106" y="-487.88" rotation="0">
+        <RectangleObjectComponent tmx-object-id="9" tmx-object-name="" tmx-object-type="" tmx-object-x="571.106" tmx-object-y="487.88" tmx-object-width="173.628" tmx-object-height="61.7024" tmx-object-rotation="0" />
+        <BoxCollider2D width="173.628" height="61.7024" />
       </GameObject>
       <GameObject name="RectangleObject" x="-1.43494" y="-561.062" rotation="0">
         <RectangleObjectComponent tmx-object-id="4" tmx-object-name="" tmx-object-type="" tmx-object-x="-1.43494" tmx-object-y="561.062" tmx-object-width="281.248" tmx-object-height="556.757" tmx-object-rotation="0" />
@@ -92,9 +92,9 @@
         <RectangleObjectComponent tmx-object-id="13" tmx-object-name="" tmx-object-type="" tmx-object-x="322.862" tmx-object-y="764.823" tmx-object-width="55.9627" tmx-object-height="53.0928" tmx-object-rotation="0" />
         <BoxCollider2D width="55.9627" height="53.0928" />
       </GameObject>
-      <GameObject name="RectangleObject" x="439.092" y="-846.615" rotation="0">
-        <RectangleObjectComponent tmx-object-id="16" tmx-object-name="" tmx-object-type="" tmx-object-x="439.092" tmx-object-y="846.615" tmx-object-width="522.318" tmx-object-height="44.4832" tmx-object-rotation="0" />
-        <BoxCollider2D width="522.318" height="44.4832" />
+      <GameObject name="RectangleObject" x="439.092" y="-860.964" rotation="0">
+        <RectangleObjectComponent tmx-object-id="16" tmx-object-name="" tmx-object-type="" tmx-object-x="439.092" tmx-object-y="860.964" tmx-object-width="522.318" tmx-object-height="30.1338" tmx-object-rotation="0" />
+        <BoxCollider2D width="522.318" height="30.1338" />
       </GameObject>
       <GameObject name="RectangleObject" x="278.379" y="-981.5" rotation="0">
         <RectangleObjectComponent tmx-object-id="5" tmx-object-name="" tmx-object-type="" tmx-object-x="278.379" tmx-object-y="981.5" tmx-object-width="1051.81" tmx-object-height="137.754" tmx-object-rotation="0" />

@@ -2,34 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f3cdc8-cc0d-4dca-ae1a-7f2e9a41251c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Bath&amp;WareRoom.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Bath&amp;WareRoom.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Garden.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Garden.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/LivingRoom.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/LivingRoom.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ProjectionRoom.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ProjectionRoom.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bath&amp;WareRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Bath&amp;WareRoom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Garden.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Garden.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LivingRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LivingRoom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ProjectionRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ProjectionRoom.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/brotherRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/brotherRoom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/CameraManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/CameraManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/StartPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/StartPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/TransferMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/TransferMap.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/LivingRoom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/LivingRoom.tiled2unity.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/brotherRoom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/brotherRoom.tiled2unity.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/garden.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/garden.tiled2unity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0003.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0003.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0004.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0004.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0005.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0005.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0006.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0006.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0007.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0007.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0008.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0008.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0009.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0009.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0010.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0010.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0011.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/garden/garden_mesh_0011.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/projectionRoom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/projectionRoom.tiled2unity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/brotherRoom/brotherRoom_mesh_0001.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/brotherRoom/brotherRoom_mesh_0001.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/LivingRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/LivingRoom.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/brotherRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/brotherRoom.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/garden.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/garden.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/projectionRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/projectionRoom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +41,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Script/CameraManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/MovingObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/TransferMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/StartPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/MovingObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/CameraManager.cs" />
       </list>
     </option>
   </component>
@@ -107,7 +99,8 @@
       <workItem from="1598977081471" duration="1183000" />
       <workItem from="1598979055703" duration="2166000" />
       <workItem from="1599016996129" duration="70000" />
-      <workItem from="1599017335597" duration="4374000" />
+      <workItem from="1599017335597" duration="8136000" />
+      <workItem from="1599057384476" duration="4307000" />
     </task>
     <servers />
   </component>
@@ -119,7 +112,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

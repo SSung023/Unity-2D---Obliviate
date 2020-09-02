@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class MovingObject : MonoBehaviour
 {
+
+    static public MovingObject instance; //자기 자신을 값으로 갖는 변수 선언
+    
     public string currentMapName; //transfer script에 있는 transferMapName 변수의 값을 저장
     
     private BoxCollider2D boxCollider;
@@ -95,10 +98,20 @@ public class MovingObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //다른 scene으로 전환할 때, 해당 Object를 파괴하지 말라는 함수
-        DontDestroyOnLoad(this.gameObject);
-        boxCollider = GetComponent<BoxCollider2D>();
-        animator = GetComponent<Animator>();
+        // 만약 instance가 null이라면(첫 실행의 경우 instace는 null)
+        if (instance == null)
+        {
+            //다른 scene으로 전환할 때, 해당 Object를 파괴하지 말라는 함수
+            DontDestroyOnLoad(this.gameObject);
+            boxCollider = GetComponent<BoxCollider2D>();
+            animator = GetComponent<Animator>();
+            instance = this; //자기 자신을 대입
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+
     }
 
     // Update is called once per frame
