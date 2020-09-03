@@ -8,6 +8,7 @@ public class MovingObject : MonoBehaviour
     static public MovingObject instance; //자기 자신을 값으로 갖는 변수 선언
     
     public string currentMapName; //transfer script에 있는 transferMapName 변수의 값을 저장
+    public string beforeSceneName; //전에 갔었던 map이 어디인지 저장하는 변수
     
     private BoxCollider2D boxCollider;
     public LayerMask layerMask; // 통과가 불가능한 레이어를 설정해 주는 역할

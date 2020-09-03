@@ -14,6 +14,7 @@
           <e p="MovingObject.cs" t="Include" />
           <e p="StartPoint.cs" t="Include" />
           <e p="TransferMap.cs" t="Include" />
+          <e p="TransferScene.cs" t="Include" />
         </e>
         <e p="Tiled2Unity" t="Include">
           <e p="Imported" t="Include">

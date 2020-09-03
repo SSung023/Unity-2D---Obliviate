@@ -2,26 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f3cdc8-cc0d-4dca-ae1a-7f2e9a41251c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bath&amp;WareRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Bath&amp;WareRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Garden.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Garden.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bath&amp;WareRoom.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bath&amp;WareRoom.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Garden.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Garden.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LivingRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LivingRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ProjectionRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ProjectionRoom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ProjectionRoom.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ProjectionRoom.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/brotherRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/brotherRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CameraManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/CameraManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/StartPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/StartPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/LivingRoom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/LivingRoom.tiled2unity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/brotherRoom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/brotherRoom.tiled2unity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/garden.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/garden.tiled2unity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/projectionRoom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/projectionRoom.tiled2unity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/brotherRoom/brotherRoom_mesh_0001.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/brotherRoom/brotherRoom_mesh_0001.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/LivingRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/LivingRoom.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/brotherRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/brotherRoom.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/garden.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/garden.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/projectionRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/projectionRoom.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/TransferMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/TransferMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/TransferMap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/TransferMap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/bathroom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/bathroom.tiled2unity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/bathroom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/bathroom.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,19 +29,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Script/TransferMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/MovingObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/StartPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/TransferMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/TransferScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tiled2Unity/Scripts/Runtime/ImportBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Script/TransferMap.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/StartPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/MovingObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/CameraManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/TransferMap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/MovingObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/TransferScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/StartPoint.cs" />
       </list>
     </option>
   </component>
@@ -101,6 +100,7 @@
       <workItem from="1599016996129" duration="70000" />
       <workItem from="1599017335597" duration="8136000" />
       <workItem from="1599057384476" duration="4307000" />
+      <workItem from="1599099460258" duration="12978000" />
     </task>
     <servers />
   </component>
@@ -128,5 +128,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="751" y="275" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1598977123774" />
+    <state x="-1453" y="17" width="1173" height="1035" key="dock-window-1" timestamp="1599105745365">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1453" y="17" width="1173" height="1035" key="dock-window-1/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1599105745365" />
   </component>
 </project>

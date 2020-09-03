@@ -1,38 +1,36 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class TransferMap : MonoBehaviour
 {
 
-    public string transferMapName; // 이동할 맵의 이름
+    public string transferMapName;
+    public Transform target; // 동일한 Scene 내에서 다른 Map으로 이동하기 위해 필요한 변수
 
-    // 플레이어의 현재 맵의 위치에 전달하기 위해 transferMapName을 대입해야함
-    // Player에게 정보를 전달하기 위한 변수
-    private MovingObject thePlayer; 
-    
+    private MovingObject thePlayer;
+    private CameraManager theCamera; // 맵 전환 시, 카메라 전환을 위한 변수
     
     // Start is called before the first frame update
     void Start()
     {
-        // 하이어라키 뷰에 있는 모든 MovingObject 컴포넌트들을 참조 가능 && 다수의 객체
-        thePlayer = FindObjectOfType <MovingObject>();
+        //카메라 전환을 위한 변수
+        theCamera = FindObjectOfType<CameraManager>();
+        thePlayer = FindObjectOfType<MovingObject>();
     }
 
-    // boxCollider 접촉 시 자동으로 실행되는 내장 함수
-    // transferPoint의 isTrigger를 체크해준다
-    private void OnTriggerEnter2D(Collider2D collision) 
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        // 만일 collisionBox와 Player가 충돌한다면
         if (collision.gameObject.name == "Player")
         {
-            // MovingObject의 currentMapName에 값을 저장
-            thePlayer.currentMapName = transferMapName;
-            //Scene을 불러오는 코드
-            SceneManager.LoadScene(transferMapName);
+            thePlayer.currentMapName = transferMapName; //player의 위치가 어디인지 저장
+            
+            // 카메라의 위치와 player의 위치를 target에 설정해뒀던 위치로 이동
+            theCamera.transform.position = new Vector3(target.transform.position.x, target.transform.position.y, theCamera.transform.position.z);
+            thePlayer.transform.position = target.transform.position;
         }
     }
+
 
     // Update is called once per frame
     void Update()
