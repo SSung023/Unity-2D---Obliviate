@@ -8,6 +8,8 @@ public class TransferMap : MonoBehaviour
     public string transferMapName;
     public Transform target; // 동일한 Scene 내에서 다른 Map으로 이동하기 위해 필요한 변수
 
+    public BoxCollider2D targetBound;
+
     private MovingObject thePlayer;
     private CameraManager theCamera; // 맵 전환 시, 카메라 전환을 위한 변수
     
@@ -25,6 +27,8 @@ public class TransferMap : MonoBehaviour
         {
             thePlayer.currentMapName = transferMapName; //player의 위치가 어디인지 저장
             
+            theCamera.SetBound(targetBound);
+
             // 카메라의 위치와 player의 위치를 target에 설정해뒀던 위치로 이동
             theCamera.transform.position = new Vector3(target.transform.position.x, target.transform.position.y, theCamera.transform.position.z);
             thePlayer.transform.position = target.transform.position;
