@@ -2,14 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f3cdc8-cc0d-4dca-ae1a-7f2e9a41251c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Bound.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Bound.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/AudioManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/AudioManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/구두 발자국-short.ver.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/구두 발자국-short.ver.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/구두 발자국-아스팔트.MP3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/구두 발자국-아스팔트.MP3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/때리는 전자 효과음3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/때리는 전자 효과음3.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/방문 열고 닫기.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/방문 열고 닫기.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/여-비명3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/여-비명3.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/여자 웃음소리.MP3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/여자 웃음소리.MP3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/종이넘기는소리.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/종이넘기는소리.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/착신아리.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/착신아리.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/철컥(문잠김).mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sound/철컥(문잠김).mp3.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/brotherRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/brotherRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CameraManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/CameraManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/TransferMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/TransferMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Bound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Bound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/LivingRoom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/LivingRoom.tiled2unity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/bathroom.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/bathroom.tiled2unity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/garden.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/garden.tiled2unity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/LivingRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/LivingRoom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/bathroom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/bathroom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/garden.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/garden.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/MovingObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/StartPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/TransferMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Bound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/TransferScene.cs" root0="FORCE_HIGHLIGHTING" />
@@ -31,12 +57,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Script/MovingObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/TransferScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/StartPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/CameraManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/TransferMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Bound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/MovingObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/AudioManager.cs" />
       </list>
     </option>
   </component>
@@ -95,6 +122,8 @@
       <workItem from="1599057384476" duration="4307000" />
       <workItem from="1599099460258" duration="13581000" />
       <workItem from="1599183864452" duration="4758000" />
+      <workItem from="1599281021304" duration="6354000" />
+      <workItem from="1599307812962" duration="3000" />
     </task>
     <servers />
   </component>
@@ -126,5 +155,9 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1453" y="17" width="1173" height="1035" key="dock-window-1/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1599105745365" />
+    <state x="345" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1599288123719">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="345" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1599288123719" />
   </component>
 </project>

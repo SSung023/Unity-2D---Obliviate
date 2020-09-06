@@ -7,7 +7,7 @@ public class MovingObject : MonoBehaviour
 
     static public MovingObject instance; //자기 자신을 값으로 갖는 변수 선언
     
-    public string currentMapName; //transfer script에 있는 transferMapName 변수의 값을 저장
+    public string currentMapName; // transfer script에 있는 transferMapName 변수의 값을 저장
     public string beforeSceneName; //전에 갔었던 map이 어디인지 저장하는 변수
     
     private BoxCollider2D boxCollider;
@@ -86,6 +86,9 @@ public class MovingObject : MonoBehaviour
 
                 //대기하는 명령어
                 yield return new WaitForSeconds(0.01f);
+
+                
+
             }
 
             currentWalkCount = 0;
@@ -105,6 +108,7 @@ public class MovingObject : MonoBehaviour
             //다른 scene으로 전환할 때, 해당 Object를 파괴하지 말라는 함수
             DontDestroyOnLoad(this.gameObject);
             boxCollider = GetComponent<BoxCollider2D>();
+            //audioSource 변수가 Player에 추가되어있는 AudioSource 컴포넌트 컨트롤 가능
             animator = GetComponent<Animator>();
             instance = this; //자기 자신을 대입
         }
