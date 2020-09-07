@@ -13,6 +13,13 @@ public class MovingObject : MonoBehaviour
     private BoxCollider2D boxCollider;
     public LayerMask layerMask; // 통과가 불가능한 레이어를 설정해 주는 역할
 
+
+    public string walkSound_1;
+    public string walkSound_2;
+    public string walkSound_3;
+
+    private AudioManager theAudio;
+    
     public float speed;
     private Vector3 vector;
 
@@ -66,7 +73,7 @@ public class MovingObject : MonoBehaviour
 
             // 상태 전이 
             animator.SetBool("Walking", true);
-
+            
             while (currentWalkCount < walkCount)
             {
                 if (vector.x != 0)
@@ -77,18 +84,15 @@ public class MovingObject : MonoBehaviour
                 {
                     transform.Translate(0, vector.y * (speed + applyRunSpeed), 0);
                 }
-
+            
                 if (applyRunFlag)
                 {
                     currentWalkCount++;
                 }
                 currentWalkCount++;
-
+            
                 //대기하는 명령어
                 yield return new WaitForSeconds(0.01f);
-
-                
-
             }
 
             currentWalkCount = 0;
@@ -110,6 +114,8 @@ public class MovingObject : MonoBehaviour
             boxCollider = GetComponent<BoxCollider2D>();
             //audioSource 변수가 Player에 추가되어있는 AudioSource 컴포넌트 컨트롤 가능
             animator = GetComponent<Animator>();
+            theAudio = FindObjectOfType<AudioManager>();
+            
             instance = this; //자기 자신을 대입
         }
         else
@@ -124,10 +130,13 @@ public class MovingObject : MonoBehaviour
     {
         if (canMove)
         {
+            //theAudio.Play(walkSound_1);
             if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
             {
+                theAudio.Play(walkSound_1);
                 canMove = false;
                 StartCoroutine(MoveCoroutine());
+                
             }
         }
 
