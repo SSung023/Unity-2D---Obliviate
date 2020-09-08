@@ -74,6 +74,8 @@ public class MovingObject : MonoBehaviour
             // 상태 전이 
             animator.SetBool("Walking", true);
             
+            //theAudio.Play(walkSound_1);
+            
             while (currentWalkCount < walkCount)
             {
                 if (vector.x != 0)
@@ -112,8 +114,8 @@ public class MovingObject : MonoBehaviour
             //다른 scene으로 전환할 때, 해당 Object를 파괴하지 말라는 함수
             DontDestroyOnLoad(this.gameObject);
             boxCollider = GetComponent<BoxCollider2D>();
-            //audioSource 변수가 Player에 추가되어있는 AudioSource 컴포넌트 컨트롤 가능
             animator = GetComponent<Animator>();
+            //audioSource 변수가 Player에 추가되어있는 AudioSource 컴포넌트 컨트롤 가능
             theAudio = FindObjectOfType<AudioManager>();
             
             instance = this; //자기 자신을 대입
@@ -130,10 +132,9 @@ public class MovingObject : MonoBehaviour
     {
         if (canMove)
         {
-            //theAudio.Play(walkSound_1);
+            theAudio.Play(walkSound_1);
             if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
             {
-                theAudio.Play(walkSound_1);
                 canMove = false;
                 StartCoroutine(MoveCoroutine());
                 

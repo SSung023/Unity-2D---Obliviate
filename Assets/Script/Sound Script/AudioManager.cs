@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-//
 [System.Serializable]
 public class Sound
 {
@@ -50,8 +49,24 @@ public class Sound
 
 public class AudioManager : MonoBehaviour
 {
+    static public AudioManager instance;
     [SerializeField]
     public Sound[] sounds;
+
+    // Scene 이동을 해도 AudioManager가 파괴되지 않도록 설정
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(this.gameObject);
+            instance = this;
+        }
+    }
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -69,10 +84,13 @@ public class AudioManager : MonoBehaviour
 
     public void Play(string _name)
     {
+        //sounds 배열을 돌면서
         for (int i = 0; i < sounds.Length; i++)
         {
+            //원하는 사운드를 찾으면 
             if (_name == sounds[i].name)
             {
+                //해당 사운드 플레이
                 sounds[i].Play();
                 return;
             }
