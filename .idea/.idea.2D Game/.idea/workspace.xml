@@ -2,34 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f3cdc8-cc0d-4dca-ae1a-7f2e9a41251c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Sound Script.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Sound Script/AudioManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Sound Script/AudioManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Sound Script/BgmManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Sound Script/BgmManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Sound Script/FadeOut.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Sound Script/FadeOut.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Sound Script/MusicStart.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Sound Script/MusicStart.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Transfer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Transfer/StartPoint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Transfer/StartPoint.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Transfer/TransferMap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Transfer/TransferMap.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Transfer/TransferScene.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Transfer/TransferScene.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/character_7.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Character/character_7.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/AudioManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/AudioManager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/StartPoint.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/StartPoint.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/TransferMap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/TransferMap.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/TransferScene.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/TransferScene.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Sound Script/BgmManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Sound Script/BgmManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Transfer/StartPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Transfer/StartPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Transfer/TransferMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Transfer/TransferMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Transfer/TransferScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Transfer/TransferScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/girlRoom2.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/girlRoom2.tiled2unity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/girlRoom2/girlRoom2_mesh_0006.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/girlRoom2/girlRoom2_mesh_0006.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/girlRoom2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/girlRoom2.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +24,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Transfer/TransferScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Bound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Transfer/TransferMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Transfer/StartPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/NPCmanager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Sound Script/MusicStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Sound Script/FadeOut.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Sound Script/BgmManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/MovingObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Sound Script/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tiled2Unity/Scripts/Runtime/ImportBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -57,7 +46,6 @@
         <option value="$PROJECT_DIR$/Assets/Script/CameraManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/TransferMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Bound.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/MovingObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/TestScript1.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/TestScript2.cs" />
@@ -65,6 +53,12 @@
         <option value="$PROJECT_DIR$/Assets/Script/FadeOut.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/MusicStart.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Sound Script/BgmManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Transfer/StartPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Transfer/TransferMap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Transfer/TransferScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/MovingObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/NPCmanager.cs" />
       </list>
     </option>
   </component>
@@ -127,7 +121,8 @@
       <workItem from="1599307812962" duration="3000" />
       <workItem from="1599471809171" duration="5545000" />
       <workItem from="1599553407757" duration="1770000" />
-      <workItem from="1599556144055" duration="4728000" />
+      <workItem from="1599556144055" duration="5328000" />
+      <workItem from="1599647280161" duration="3167000" />
     </task>
     <servers />
   </component>

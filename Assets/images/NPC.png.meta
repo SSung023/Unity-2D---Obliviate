@@ -1,0 +1,679 @@
+fileFormatVersion: 2
+guid: 6da3be122bf1d1640800cf0421fe612a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8687450009104551503
+    second: characterCrawlAdd_0
+  - first:
+      213: 6188369233235034823
+    second: characterCrawlAdd_1
+  - first:
+      213: 7955251750528073294
+    second: characterCrawlAdd_2
+  - first:
+      213: -2139383672831981858
+    second: characterCrawlAdd_3
+  - first:
+      213: 851037994384604266
+    second: characterCrawlAdd_4
+  - first:
+      213: 4628303051901116577
+    second: characterCrawlAdd_5
+  - first:
+      213: 5874877439455379312
+    second: characterCrawlAdd_6
+  - first:
+      213: 5588506866561748282
+    second: characterCrawlAdd_7
+  - first:
+      213: 5742084877644885232
+    second: characterCrawlAdd_8
+  - first:
+      213: -7394612720982648961
+    second: characterCrawlAdd_9
+  - first:
+      213: 8329357766878201995
+    second: characterCrawlAdd_10
+  - first:
+      213: -7092556079778485349
+    second: characterCrawlAdd_11
+  - first:
+      213: -1398286439406733664
+    second: characterCrawlAdd_12
+  - first:
+      213: -7480674177153408794
+    second: characterCrawlAdd_13
+  - first:
+      213: -2664348416281966059
+    second: characterCrawlAdd_14
+  - first:
+      213: 7597083483461809776
+    second: characterCrawlAdd_15
+  - first:
+      213: -5958862163519906664
+    second: characterCrawlAdd_16
+  - first:
+      213: 2351816419125364874
+    second: characterCrawlAdd_17
+  - first:
+      213: 2383327353876756671
+    second: characterCrawlAdd_18
+  - first:
+      213: -9148613483560833937
+    second: characterCrawlAdd_19
+  - first:
+      213: 3746417549265898153
+    second: characterCrawlAdd_20
+  - first:
+      213: 5713458963903881115
+    second: characterCrawlAdd_21
+  - first:
+      213: -3518286280322120643
+    second: characterCrawlAdd_22
+  - first:
+      213: 6524267272760038336
+    second: characterCrawlAdd_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: characterCrawlAdd_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 553
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b67fddf507b684ca2a87a90f446038
+      internalID: -8687450009104551503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 553
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ce4455b01a5e445bae38dbc21fb1fe
+      internalID: 6188369233235034823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 553
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715dc5b467508d0439fd4cc64b73f2e9
+      internalID: 7955251750528073294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 474
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53434120b7f1c384ba752aae64d9fd3c
+      internalID: -2139383672831981858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 474
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3eacfd562518c74fbd46ebc2201c3f8
+      internalID: 851037994384604266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 474
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a6a1a8f111677469d737bf4784caca
+      internalID: 4628303051901116577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 395
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bdff1616c2ec841b7965e94ccf41ce
+      internalID: 5874877439455379312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 395
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eaa364c476f2a6499bf6a8cb2251bda
+      internalID: 5588506866561748282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 395
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86b85c4ab00db942ba0efe0a8ab2dc3
+      internalID: 5742084877644885232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 316
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7971688ba7e6ace40bbf61275463a6c4
+      internalID: -7394612720982648961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_10
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 316
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30960c2268ebdeb4d931d3cd39454ca3
+      internalID: 8329357766878201995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_11
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 316
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171f04dc34353de4ebcfc823b2dd83e0
+      internalID: -7092556079778485349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 237
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b7ae435873d7241ae81fa2c4f8a5fd
+      internalID: -1398286439406733664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 237
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90e70eaa4e76ae43b74f156f942a7de
+      internalID: -7480674177153408794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_14
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 237
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf18e7684d981445a6a2ff092f702a1
+      internalID: -2664348416281966059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c0d68d8265c584f9bd127caac168cd
+      internalID: 7597083483461809776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_16
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 158
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30fd1209af3be44481f5631fd105e05
+      internalID: -5958862163519906664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_17
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 158
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2ba97c0c2c9e245b052178bd5169e0
+      internalID: 2351816419125364874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e160d2a3514846e43b405c2e242591eb
+      internalID: 2383327353876756671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_19
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 79
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823ae8b19f9814648921d68d065db4ae
+      internalID: -9148613483560833937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_20
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 79
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5dd0d6c3741b84e87cdf6fc40ef4b6
+      internalID: 3746417549265898153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19eff8387bfa754ea8041f3a6e88e40
+      internalID: 5713458963903881115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe7ce07112dcc245aa307fc065bfbb8
+      internalID: -3518286280322120643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterCrawlAdd_23
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 47
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dcc6fa22b7c9c48abb9dcac1593a05
+      internalID: 6524267272760038336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -71,7 +71,7 @@ public class BgmManager : MonoBehaviour
     IEnumerator FadeOutMusicCoroutine()
     {
         // 볼륨을 1부터 0까지 서서히 줄인다
-        for (float i = 1.0f; i >= 0f; i -= 0.01f)
+        for (float i = source.volume; i >= 0f; i -= 0.01f)
         {
             source.volume = i;
 

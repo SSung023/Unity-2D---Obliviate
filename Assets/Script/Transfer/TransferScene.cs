@@ -9,13 +9,13 @@ public class TransferScene : MonoBehaviour
     public string transferSceneName; // 이동할 맵의 이름
 
     // 플레이어의 현재 맵의 위치에 전달하기 위해 transferMapName을 대입해야함 && Player에게 정보를 전달하기 위한 변수
-    private MovingObject thePlayer;
+    private PlayerManager thePlayer;
 
     // Start is called before the first frame update
     void Start()
     {
         // 하이어라키 뷰에 있는 모든 MovingObject 컴포넌트들을 참조 가능 && 다수의 객체
-        thePlayer = FindObjectOfType <MovingObject>();
+        thePlayer = FindObjectOfType <PlayerManager>();
 
     }
 

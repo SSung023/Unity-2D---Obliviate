@@ -13,6 +13,8 @@
           <e p="CameraManager.cs" t="Include" />
           <e p="MoveObject.cs" t="Include" />
           <e p="MovingObject.cs" t="Include" />
+          <e p="NPCmanager.cs" t="Include" />
+          <e p="PlayerManager.cs" t="Include" />
           <e p="Sound Script" t="Include">
             <e p="AudioManager.cs" t="Include" />
             <e p="BgmManager.cs" t="Include" />

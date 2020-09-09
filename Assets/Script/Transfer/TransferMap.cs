@@ -10,7 +10,7 @@ public class TransferMap : MonoBehaviour
 
     public BoxCollider2D targetBound;
 
-    private MovingObject thePlayer;
+    private PlayerManager thePlayer;
     private CameraManager theCamera; // 맵 전환 시, 카메라 전환을 위한 변수
     
     // Start is called before the first frame update
@@ -18,7 +18,7 @@ public class TransferMap : MonoBehaviour
     {
         //카메라 전환을 위한 변수
         theCamera = FindObjectOfType<CameraManager>();
-        thePlayer = FindObjectOfType<MovingObject>();
+        thePlayer = FindObjectOfType<PlayerManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

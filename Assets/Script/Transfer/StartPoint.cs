@@ -11,7 +11,7 @@ public class StartPoint : MonoBehaviour
     public bool isOneEntry;
     public Transform location;
     
-    private MovingObject thePlayer;
+    private PlayerManager thePlayer;
 
     private CameraManager theCamera;
     
@@ -19,7 +19,7 @@ public class StartPoint : MonoBehaviour
     void Start()
     {
         theCamera = FindObjectOfType<CameraManager>();
-        thePlayer = FindObjectOfType<MovingObject>();
+        thePlayer = FindObjectOfType<PlayerManager>();
         if (startPointLocation == thePlayer.currentMapName)
         {
             if (isOneEntry)
