@@ -11,16 +11,20 @@
         <e p="Script" t="Include">
           <e p="Bound.cs" t="Include" />
           <e p="CameraManager.cs" t="Include" />
+          <e p="Creature" t="Include">
+            <e p="MovingObject.cs" t="Include" />
+            <e p="NPCmanager.cs" t="Include" />
+            <e p="PlayerManager.cs" t="Include" />
+          </e>
           <e p="MoveObject.cs" t="Include" />
-          <e p="MovingObject.cs" t="Include" />
-          <e p="NPCmanager.cs" t="Include" />
-          <e p="PlayerManager.cs" t="Include" />
+          <e p="OrderManager.cs" t="Include" />
           <e p="Sound Script" t="Include">
             <e p="AudioManager.cs" t="Include" />
             <e p="BgmManager.cs" t="Include" />
             <e p="FadeOut.cs" t="Include" />
             <e p="MusicStart.cs" t="Include" />
           </e>
+          <e p="Test.cs" t="Include" />
           <e p="Transfer" t="Include">
             <e p="StartPoint.cs" t="Include" />
             <e p="TransferMap.cs" t="Include" />

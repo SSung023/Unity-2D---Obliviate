@@ -2,18 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f3cdc8-cc0d-4dca-ae1a-7f2e9a41251c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/NPC/Npc.overrideController" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/NPC/Npc.overrideController.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Creature.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Creature/MovingObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Creature/MovingObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Creature/NPCmanager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Creature/NPCmanager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Creature/PlayerManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Creature/PlayerManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/OrderManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Test.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Test.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/character_7.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Character/character_7.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/NPC/NPC.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/NPC/NPC.controller.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/MovingObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/NPCmanager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/NPCmanager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerManager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Sound Script/BgmManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Sound Script/BgmManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Transfer/StartPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Transfer/StartPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Transfer/TransferMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Transfer/TransferMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Transfer/TransferScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Transfer/TransferScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/girlRoom2.tiled2unity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Imported/girlRoom2.tiled2unity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/girlRoom2/girlRoom2_mesh_0006.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Meshes/girlRoom2/girlRoom2_mesh_0006.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/girlRoom2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiled2Unity/Prefabs/girlRoom2.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,17 +36,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/OrderManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Transfer/TransferScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Bound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Transfer/TransferMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Creature/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Transfer/StartPoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/NPCmanager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Sound Script/MusicStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Sound Script/FadeOut.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Creature/NPCmanager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Sound Script/BgmManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/MovingObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Sound Script/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Creature/MovingObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tiled2Unity/Scripts/Runtime/ImportBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -52,13 +66,18 @@
         <option value="$PROJECT_DIR$/Assets/Script/BgmManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/FadeOut.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/MusicStart.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Sound Script/BgmManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/PlayerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Transfer/StartPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Transfer/TransferMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Transfer/TransferScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Sound Script/BgmManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/MovingObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/NPCmanager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/OrderManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Creature/PlayerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Creature/NPCmanager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Creature/MovingObject.cs" />
       </list>
     </option>
   </component>
@@ -123,6 +142,8 @@
       <workItem from="1599553407757" duration="1770000" />
       <workItem from="1599556144055" duration="5328000" />
       <workItem from="1599647280161" duration="3167000" />
+      <workItem from="1599701676864" duration="5919000" />
+      <workItem from="1599786475547" duration="10447000" />
     </task>
     <servers />
   </component>

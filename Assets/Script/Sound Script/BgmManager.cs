@@ -37,7 +37,7 @@ public class BgmManager : MonoBehaviour
     //BGM 관련 함수 구현
     public void Play(int _musicTrack)
     {
-        source.volume = 1.0f;
+        source.volume = 0.2f;
         // 플레이 하고자 하는 사운드를 불러온다
         source.clip = clips[_musicTrack];
         source.Play();
