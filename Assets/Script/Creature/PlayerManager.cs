@@ -21,7 +21,7 @@ public class PlayerManager : MovingObject
     private bool applyRunFlag = false;
 
     private bool canMove = true;
-
+    //=============================================================
 
 
     IEnumerator MoveCoroutine()
@@ -57,23 +57,37 @@ public class PlayerManager : MovingObject
             animator.SetBool("Walking", true);
             
             //theAudio.Play(walkSound_1);
+            boxCollider.offset = new Vector2(vector.x * 0.7f * speed * walkCount, vector.y * 0.7f * speed * walkCount);
             
             while (currentWalkCount < walkCount)
             {
-                if (vector.x != 0)
-                {
-                    transform.Translate(vector.x * (speed + applyRunSpeed), 0, 0);
-                }
-                else if (vector.y != 0)
-                {
-                    transform.Translate(0, vector.y * (speed + applyRunSpeed), 0);
-                }
-            
+                transform.Translate(vector.x *(speed + applyRunSpeed), vector.y * (speed + applyRunSpeed), 0);
                 if (applyRunFlag)
                 {
                     currentWalkCount++;
                 }
+
                 currentWalkCount++;
+                
+                //npc와 player가 서로 끼는 현상을 방지하는 코드
+                if (currentWalkCount == 3)
+                {
+                    boxCollider.offset = Vector2.zero;
+                }
+                // if (vector.x != 0)
+                // {
+                //     transform.Translate(vector.x * (speed + applyRunSpeed), 0, 0);
+                // }
+                // else if (vector.y != 0)
+                // {
+                //     transform.Translate(0, vector.y * (speed + applyRunSpeed), 0);
+                // }
+                //
+                // if (applyRunFlag)
+                // {
+                //     currentWalkCount++;
+                // }
+                // currentWalkCount++;
             
                 //대기하는 명령어
                 yield return new WaitForSeconds(0.01f);
@@ -106,8 +120,10 @@ public class PlayerManager : MovingObject
     void Start()
     {
         queue = new Queue<string>(); //MovingObject에서 선언한 queue 초기화
+        
         boxCollider = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
+        
         //audioSource 변수가 Player에 추가되어있는 AudioSource 컴포넌트 컨트롤 가능
         theAudio = FindObjectOfType<AudioManager>();
 
@@ -118,7 +134,9 @@ public class PlayerManager : MovingObject
     {
         if (canMove)
         {
+            //player가 걷는 소리 재생
             theAudio.Play(walkSound_1);
+            
             if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
             {
                 //theAudio.Play(walkSound_1);

@@ -2,30 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f3cdc8-cc0d-4dca-ae1a-7f2e9a41251c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/NPC/Npc.overrideController" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/NPC/Npc.overrideController.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Creature.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Creature/MovingObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Creature/MovingObject.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Creature/NPCmanager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Creature/NPCmanager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Creature/PlayerManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Creature/PlayerManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/OrderManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Test.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Test.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Dialog.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/DialogManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/NPCTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/NPCTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/dialogueTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/dialogueTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Dialogue - Ha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Dialogue - Ha.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Dialogue - Min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Dialogue - Min.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Dialogue - Si.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Dialogue - Si.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Dialogue - Unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Dialogue - Unknown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Dialogue - basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Dialogue - basic.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Dialogue - bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Dialogue - bottom.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Guan - 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Guan - 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Guan - 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Guan - 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Haon - A - 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Haon - A - 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Haon - A - 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Haon - A - 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Katholik - B - 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Katholik - B - 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Katholik - B - 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/sample image/Katholik - B - 3.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/NPC/NPC.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/NPC/NPC.controller.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GirlRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/MovingObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/MovingObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/NPCmanager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/NPCmanager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Sound Script/BgmManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Sound Script/BgmManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Creature/MovingObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Creature/MovingObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Creature/NPCmanager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Creature/NPCmanager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Creature/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Creature/PlayerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/OrderManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/OrderManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Test.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Test.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +54,21 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/OrderManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/DialogManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E9D261C8-B62F-4EAF-8218-EC98B294E898/e0/7e6c220e/Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Transfer/TransferScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Bound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Transfer/TransferMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Creature/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Transfer/StartPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Dialog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/dialogueTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Sound Script/MusicStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Sound Script/FadeOut.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Creature/NPCmanager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Sound Script/BgmManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Sound Script/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Creature/MovingObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tiled2Unity/Scripts/Runtime/ImportBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -73,11 +93,14 @@
         <option value="$PROJECT_DIR$/Assets/Script/MovingObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/NPCmanager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Test.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/OrderManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Creature/PlayerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Test.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Creature/NPCmanager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Creature/MovingObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Creature/PlayerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/DialogManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/dialogueTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Dialog.cs" />
       </list>
     </option>
   </component>
@@ -143,7 +166,8 @@
       <workItem from="1599556144055" duration="5328000" />
       <workItem from="1599647280161" duration="3167000" />
       <workItem from="1599701676864" duration="5919000" />
-      <workItem from="1599786475547" duration="10447000" />
+      <workItem from="1599786475547" duration="18415000" />
+      <workItem from="1599882394646" duration="10031000" />
     </task>
     <servers />
   </component>

@@ -27,12 +27,12 @@ public class NPCmanager : MovingObject
         queue = new Queue<string>();
         //StartCoroutine(MoveCoroutine());
         
-        // if(npc.isNpcMove)
-        //     setMove();
-        // else
-        // {
-        //     setNotMove();
-        // }
+        if(npc.isNpcMove)
+            setMove();
+        else
+        {
+            setNotMove();
+        }
     }
 
     public void setMove()
@@ -52,26 +52,10 @@ public class NPCmanager : MovingObject
             for (int i = 0; i < npc.direction.Length; i++)
             {
                 //npc가 해당하는 시간만큼 대기하고 다시 움직이게 함
-                switch (npc.frequency)
-                {
-                    case 1:
-                        yield return new WaitForSeconds(4f);
-                        break;
-                    case 2:
-                        yield return new WaitForSeconds(3f);
-                        break;
-                    case 3:
-                        yield return new WaitForSeconds(2f);
-                        break;
-                    case 4: 
-                        yield return new WaitForSeconds(1f);
-                        break;    
-                    case 5:
-                        break;
 
-                }
                 
-                yield return new WaitUntil(() => isNpcMove); //isNpcMove가 true가 될 때까지 대기
+                yield return new WaitUntil(() => queue.Count < 2); //isNpcMove가 true가 될 때까지 대기
+                
                 //실질적인 이동 구간
                 base.Move(npc.direction[i], npc.frequency);
                 

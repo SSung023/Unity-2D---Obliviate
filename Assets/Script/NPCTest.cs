@@ -1,0 +1,47 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[System.Serializable]
+public class TestMove
+{
+    public string name;
+    public string direction;
+}
+
+public class Test : MonoBehaviour
+{
+    [SerializeField]
+    public TestMove[] moveCase;
+
+    public string direction;
+    public bool isCollied = false; //player와 collider가 충돌했는지의 여부
+    private OrderManager theOrder;
+    
+    // Start is called before the first frame update
+    void Start()
+    {
+        theOrder = FindObjectOfType<OrderManager>();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "Player")
+        {
+            isCollied = true;
+            theOrder.preLoadCharacter(); //모든 npc를 불러온다
+            
+            //여기서 npc가 반복해서 움직이는 버그가 생기는 것으로 추정, 한번만 실행되어야 하는데 여러번 실행됨
+            for (int i = 0; i < moveCase.Length; i++)
+            {
+                theOrder.Move(moveCase[i].name, moveCase[i].direction);
+ 
+            }
+            
+            //theOrder.Move(moveCase[0].name, moveCase[0].direction);
+
+            // theOrder.Turn("npc1", direction);
+            // theOrder.setInvisible("npc1");
+        }
+    }
+}

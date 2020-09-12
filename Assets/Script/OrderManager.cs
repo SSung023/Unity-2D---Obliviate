@@ -46,6 +46,59 @@ public class OrderManager : MonoBehaviour
         }
     }
 
+    public void Turn(string _name, string _dir)
+    {
+        for (int i = 0; i < characters.Count; i++)
+        {
+            if (_name == characters[i].characterName) //일치할 경우 MovingObject의 Move함수 실행
+            {
+                characters[i].animator.SetFloat("DirX", 0f);
+                characters[i].animator.SetFloat("DirY", 0f);
+                
+                switch (_dir)
+                {
+                    case "UP":
+                        characters[i].animator.SetFloat("DirY", 1f);
+                        break;
+                    case "DOWN":
+                        characters[i].animator.SetFloat("DirY", -1f);
+                        break;
+                    case "LEFT":
+                        characters[i].animator.SetFloat("DirX", -1f);
+                        break;
+                    case "RIGHT":
+                        characters[i].animator.SetFloat("DirX", 1f);
+                        break;
+                }
+
+            }
+        }
+    }
+
+    public void setInvisible(string _name)
+    {
+        for (int i = 0; i < characters.Count; i++)
+        {
+            if (_name == characters[i].characterName) //일치할 경우 MovingObject의 Move함수 실행
+            {
+                characters[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
+    public void setVisible(string _name)
+    {
+        for (int i = 0; i < characters.Count; i++)
+        {
+            if (_name == characters[i].characterName) //일치할 경우 MovingObject의 Move함수 실행
+            {
+                characters[i].gameObject.SetActive(true);
+            }
+        }
+    }
+    
+    
+    
     // Update is called once per frame
     void Update()
     {

@@ -16,7 +16,11 @@
             <e p="NPCmanager.cs" t="Include" />
             <e p="PlayerManager.cs" t="Include" />
           </e>
+          <e p="Dialog.cs" t="Include" />
+          <e p="DialogManager.cs" t="Include" />
+          <e p="dialogueTest.cs" t="Include" />
           <e p="MoveObject.cs" t="Include" />
+          <e p="NPCTest.cs" t="Include" />
           <e p="OrderManager.cs" t="Include" />
           <e p="Sound Script" t="Include">
             <e p="AudioManager.cs" t="Include" />
@@ -24,7 +28,6 @@
             <e p="FadeOut.cs" t="Include" />
             <e p="MusicStart.cs" t="Include" />
           </e>
-          <e p="Test.cs" t="Include" />
           <e p="Transfer" t="Include">
             <e p="StartPoint.cs" t="Include" />
             <e p="TransferMap.cs" t="Include" />

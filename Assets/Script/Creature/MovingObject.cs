@@ -61,6 +61,26 @@ public class MovingObject : MonoBehaviour
     {
         while (queue.Count != 0)
         {
+            switch (_frequency)
+            {
+                case 1:
+                    yield return new WaitForSeconds(4f);
+                    break;
+                case 2:
+                    yield return new WaitForSeconds(3f);
+                    break;
+                case 3:
+                    yield return new WaitForSeconds(2f);
+                    break;
+                case 4: 
+                    yield return new WaitForSeconds(1f);
+                    break;    
+                case 5:
+                    break;
+
+            }
+            
+            
             string direction = queue.Dequeue();
             
             isNpcMove = false;
@@ -85,13 +105,38 @@ public class MovingObject : MonoBehaviour
         
             animator.SetFloat("DirX", vector.x);
             animator.SetFloat("DirY", vector.y);
+            
+            // npc와 충돌 방지 코드
+            while (true)
+            {
+                bool checkCollisionFlag = checkCollision();
+                if (checkCollisionFlag)
+                {
+                    animator.SetBool("Walking", false);
+                    yield return new WaitForSeconds(1f);
+                } 
+
+                else
+                {
+                    break;
+                }
+            }
+
+            
             animator.SetBool("Walking", true);
         
+            boxCollider.offset = new Vector2(vector.x * 0.7f * speed * walkCount, vector.y * 0.7f * speed * walkCount);
         
             while (currentWalkCount < walkCount)
             {
                 transform.Translate(vector.x * speed, vector.y * speed, 0);
                 currentWalkCount++;
+
+                if (currentWalkCount == 3)
+                {
+                    boxCollider.offset = Vector2.zero;
+                }
+                
                 //대기하는 명령어
                 yield return new WaitForSeconds(0.01f);
             }
