@@ -6,6 +6,7 @@ public class PlayerManager : MovingObject
 {
     
     static public PlayerManager instance; //자기 자신을 값으로 갖는 변수 선언
+    static private bool isCollied = false; //OnTriggerEnter2D 함수에서 한번만 실행되게 설정하는 변수
     
     public string currentMapName; // transfer script에 있는 transferMapName 변수의 값을 저장
     public string beforeSceneName; //전에 갔었던 map이 어디인지 저장하는 변수
@@ -21,13 +22,15 @@ public class PlayerManager : MovingObject
     private bool applyRunFlag = false;
 
     private bool canMove = true;
+
+    public bool canNotMove = false; //true일 때 움직일 수 없음, false일 때 움직일 수 있음
     //=============================================================
 
 
     IEnumerator MoveCoroutine()
     {
 
-        while (Input.GetAxisRaw("Vertical") != 0 || Input.GetAxisRaw("Horizontal") != 0)
+        while ((Input.GetAxisRaw("Vertical") != 0 || Input.GetAxisRaw("Horizontal") != 0) && !canNotMove)
         {
             if (Input.GetKey(KeyCode.LeftShift))
             {
@@ -132,7 +135,7 @@ public class PlayerManager : MovingObject
     // Update is called once per frame
     void Update()
     {
-        if (canMove)
+        if (canMove && !canNotMove)
         {
             //player가 걷는 소리 재생
             theAudio.Play(walkSound_1);
@@ -147,4 +150,20 @@ public class PlayerManager : MovingObject
         }
 
     }
+
+    static public bool getIsCollied()
+    {
+        return isCollied;
+    }
+
+    static public void setIsCollied(bool set)
+    {
+        isCollied = set;
+    }
+
+    public string getSoundName()
+    {
+        return walkSound_1;
+    }
+    
 }

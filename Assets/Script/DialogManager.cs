@@ -34,13 +34,21 @@ public class DialogManager : MonoBehaviour
     // 배열은 고정적이기 때문에, List를 이용
     private List<string> listSentence; //대화 내용
     private List<Sprite> listSprite; // 캐릭터
-    private List<Sprite> listDialogWindow; //대화 창
+    private List<Sprite> listDialogueWindow; //대화 창
 
     private int count; //대화가 얼마나 진행됐는지 확인하기 위한 변수
 
     //대화 이벤트 시, 실행되는 애니메이션(다이어로그 창 나타나는 모션)
     public Animator animationSprite;
     public Animator animationDialogueWindow;
+
+    public string typeSound;
+    public string enterSound;
+
+    private AudioManager theAudio;
+    private OrderManager theOrder;
+    
+    public bool isTalking = false;
 
 
     // Start is called before the first frame update
@@ -50,18 +58,25 @@ public class DialogManager : MonoBehaviour
         text.text = "";
         listSentence = new List<string>();
         listSprite = new List<Sprite>();
-        listDialogWindow = new List<Sprite>();
+        listDialogueWindow = new List<Sprite>();
+
+        theAudio = FindObjectOfType<AudioManager>();
+        theOrder = FindObjectOfType<OrderManager>();
     }
 
     public void showDialogue(Dialog dialogue)
     {
+        isTalking = true;
+        
+        theOrder.setNotMove();
+        
         initDialogue(dialogue);
         
         animationSprite.SetBool("isAppear", true);
         animationDialogueWindow.SetBool("isAppear", true);
 
         StartCoroutine(startDialogueCoroutine()); //대화가 시작되는 코루틴
-
+        
     }
     //dialog의 배열에 있던 내용물을 list에 대입
     void initDialogue(Dialog dialogue)
@@ -71,7 +86,7 @@ public class DialogManager : MonoBehaviour
         {
             listSentence.Add(dialogue.sentence[i]);
             listSprite.Add(dialogue.sprites[i]);
-            listDialogWindow.Add(dialogue.dialogWindows[i]);
+            listDialogueWindow.Add(dialogue.dialogWindows[i]);
         }
     }
 
@@ -80,13 +95,13 @@ public class DialogManager : MonoBehaviour
         if (count > 0)
         {
             //dialogue의 대화창 변경
-            if (listDialogWindow[count] != listDialogWindow[count - 1]) // 말하는 캐릭터가 바뀌는 경우
+            if (listDialogueWindow[count] != listDialogueWindow[count - 1]) // 말하는 캐릭터가 바뀌는 경우
             {
                 animationSprite.SetBool("isChange", true);
                 animationDialogueWindow.SetBool("isAppear", false);
                 yield return new WaitForSeconds(0.2f);
             
-                rendererDialogueWindow.GetComponent<SpriteRenderer>().sprite = listDialogWindow[count];
+                rendererDialogueWindow.GetComponent<SpriteRenderer>().sprite = listDialogueWindow[count];
                 rendererSprite.GetComponent<SpriteRenderer>().sprite = listSprite[count];
             
                 animationDialogueWindow.SetBool("isAppear", true);
@@ -112,7 +127,8 @@ public class DialogManager : MonoBehaviour
         }
         else //count == 0인 경우
         {
-            rendererDialogueWindow.GetComponent<SpriteRenderer>().sprite = listDialogWindow[count];
+            yield return new WaitForSeconds(0.05f);
+            rendererDialogueWindow.GetComponent<SpriteRenderer>().sprite = listDialogueWindow[count];
             rendererSprite.GetComponent<SpriteRenderer>().sprite = listSprite[count];
         }
         
@@ -121,6 +137,11 @@ public class DialogManager : MonoBehaviour
         for (int i = 0; i < listSentence[count].Length; i++)
         {
             text.text += listSentence[count][i]; //한 문장의 맨 앞 글자부터 한 글자씩 차례대로 출력
+            
+            if (i % 7 == 1)
+            {
+                theAudio.Play(typeSound);
+            }
             yield return new WaitForSeconds(0.01f); // text 출력이 한 글자씩 이루어지도록 특정 시간 대기
         }
         
@@ -135,31 +156,42 @@ public class DialogManager : MonoBehaviour
         
         listSentence.Clear();
         listSprite.Clear();
-        listDialogWindow.Clear();
+        listDialogueWindow.Clear();
         
         animationSprite.SetBool("isAppear", false);
         animationDialogueWindow.SetBool("isAppear", false);
+        
+        isTalking = false;
+        theOrder.setMove();
     }
     
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (isTalking)
         {
-            count++;
-            text.text = "";
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                count++;
+                text.text = "";
+                
+                theAudio.Play(enterSound);
             
-            if (count == listSentence.Count - 1) //문장의 모든 글자를 출력한 경우
-            {
-                StopAllCoroutines();
-                exitDialogue();
-            }
-            else
-            {
-                StopAllCoroutines();
-                StartCoroutine(startDialogueCoroutine());
+                if (count == listSentence.Count) //문장의 모든 글자를 출력한 경우
+                {
+                    StopAllCoroutines();
+                    exitDialogue();
+                }
+                else
+                {
+                    StopAllCoroutines();
+                    StartCoroutine(startDialogueCoroutine());
+                }
             }
         }
     }
+    
+    
+    
 }

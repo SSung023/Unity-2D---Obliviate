@@ -35,6 +35,16 @@ public class OrderManager : MonoBehaviour
         return tempList;
     }
 
+    public void setNotMove()
+    {
+        thePlayer.canNotMove = true;
+    }
+
+    public void setMove()
+    {
+        thePlayer.canNotMove = false;
+    }
+
     public void Move(string _name, string _dir)
     {
         for (int i = 0; i < characters.Count; i++)

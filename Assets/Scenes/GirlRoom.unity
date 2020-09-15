@@ -318,7 +318,7 @@ MonoBehaviour:
     m_Bits: 256
   animator: {fileID: 110919373}
   npc:
-    isNpcMove: 1
+    isNpcMove: 0
     direction:
     - UP
     - UP
@@ -614,7 +614,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -656,6 +656,7 @@ MonoBehaviour:
   walkSound_2: 
   walkSound_3: 
   runSpeed: 3
+  canNotMove: 0
 --- !u!1001 &455837587
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -974,7 +975,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 685916359}
-  - component: {fileID: 685916360}
   m_Layer: 5
   m_Name: Dialog Manager
   m_TagString: Untagged
@@ -1004,23 +1004,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &685916360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685916358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5deef6aa63e3f3340aeb8d364f27413a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 917473827}
-  rendererSprite: {fileID: 886381682}
-  rendererDialogueWindow: {fileID: 867548926}
-  animationSprite: {fileID: 886381683}
-  animationDialogueWindow: {fileID: 867548927}
 --- !u!1 &805092635
 GameObject:
   m_ObjectHideFlags: 0
@@ -1537,7 +1520,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -355, y: -237}
+  m_AnchoredPosition: {x: -355, y: -256}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &917473827
@@ -1560,7 +1543,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1571,7 +1554,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 
 --- !u!222 &917473828
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1677,13 +1660,13 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 456678de0e5e1b34fbc5a1ba2a3d3a69, type: 3}
     Volumn: 0.5
     loop: 0
-  - name: FootSteps 2
-    clip: {fileID: 8300000, guid: 80821ecbb80572d488f9d922b74cf180, type: 3}
-    Volumn: 0
+  - name: type_sound
+    clip: {fileID: 8300000, guid: 712db17e076b1144da34466d5db5aa95, type: 3}
+    Volumn: 0.4
     loop: 0
-  - name: FootSteps 3
-    clip: {fileID: 8300000, guid: 80821ecbb80572d488f9d922b74cf180, type: 3}
-    Volumn: 0
+  - name: enter_sound
+    clip: {fileID: 8300000, guid: 7139c3be01483364eb51888464d6d74d, type: 3}
+    Volumn: 0.4
     loop: 0
 --- !u!1 &1147071365
 GameObject:
@@ -1903,7 +1886,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 36, y: 36}
+  m_Size: {x: 40, y: 40}
   m_EdgeRadius: 0
 --- !u!4 &1369108722
 Transform:
@@ -1913,7 +1896,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369108720}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 675, y: -720, z: 0}
+  m_LocalPosition: {x: 669, y: -728, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1933,15 +1916,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentence:
-    - "\uCCAB\uBC88\uC9F8 \uBB38\uC7A5"
+    - 'first
+
+      sdfksdf'
     - "\uB450\uBC88\uC9F8 \uBB38\uC7A5"
     - "\uC138\uBC88\uC9F8 \uBB38\uC7A5"
     - "\uB124\uBC88\uC9F8 \uBB38\uC7A5"
     sprites:
     - {fileID: 21300000, guid: 1e6511702361eda47822a3b3f595077b, type: 3}
     - {fileID: 21300000, guid: 1e6511702361eda47822a3b3f595077b, type: 3}
-    - {fileID: 21300000, guid: 1e6511702361eda47822a3b3f595077b, type: 3}
     - {fileID: 21300000, guid: 3c696b7aa37cef84692011c6dbca6556, type: 3}
+    - {fileID: 21300000, guid: 588381430ceb5a746ac62bf29d1541c7, type: 3}
     dialogWindows:
     - {fileID: 21300000, guid: 35f1220d6bbf27b4abac7e25b61c793f, type: 3}
     - {fileID: 21300000, guid: 35f1220d6bbf27b4abac7e25b61c793f, type: 3}
@@ -2764,6 +2749,7 @@ GameObject:
   - component: {fileID: 2040999953}
   - component: {fileID: 2040999952}
   - component: {fileID: 2040999951}
+  - component: {fileID: 2040999955}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2851,6 +2837,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2040999955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040999950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5deef6aa63e3f3340aeb8d364f27413a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 917473827}
+  rendererSprite: {fileID: 886381682}
+  rendererDialogueWindow: {fileID: 867548926}
+  animationSprite: {fileID: 886381683}
+  animationDialogueWindow: {fileID: 867548927}
+  typeSound: type_sound
+  enterSound: enter_sound
+  isTalking: 0
 --- !u!1 &2066658731
 GameObject:
   m_ObjectHideFlags: 0
@@ -2933,8 +2939,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2089488493}
-  - component: {fileID: 2089488494}
   - component: {fileID: 2089488495}
+  - component: {fileID: 2089488494}
   m_Layer: 0
   m_Name: NPCtest
   m_TagString: Untagged
@@ -2970,12 +2976,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveCase:
   - name: npc1
+    direction: UP
+  - name: npc1
     direction: LEFT
   - name: npc1
-    direction: UP
-  direction: LEFT
+    direction: DOWN
+  - name: npc1
+    direction: RIGHT
+  direction: 
   isCollied: 0
-  theOrder: {fileID: 0}
+  coolTime: 0
 --- !u!61 &2089488495
 BoxCollider2D:
   m_ObjectHideFlags: 0
